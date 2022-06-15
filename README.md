@@ -4,7 +4,7 @@
 ![GitHub language count](https://img.shields.io/github/languages/count/mmaachado/form-to-google-sheets?style=for-the-badge)
 ![GitHub forks](https://img.shields.io/github/forks/mmaachado/form-to-google-sheets?style=for-the-badge)
 
-<img src="/src/assets/img/project-preview" alt="project-preview.png">
+<img src="/src/assets/img/project-preview.png" alt="project-preview.png">
 
 > Project Preview (Raw data).
 <br>
@@ -14,7 +14,7 @@
 <br>
 <img src="/src/assets/img/project-preview-data.png" alt="project-preview-data.png">
 
-> Project Preview (Google Sheet).
+> Project Preview (Google Sheets).
 <br>
 
 ### Adjusts && fixes

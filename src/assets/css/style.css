@@ -149,3 +149,23 @@
 .home__button:disabled i{
     color: var(--grey-color);
 }
+
+/*===== FOOTER =====*/
+.footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: var(--mb-1-25);
+}
+.footer a {
+    text-decoration: none;
+    color: var(--grey-color-medium);
+}
+.footer span:before {
+    color: var(--grey-color-medium);
+    content: "made with ☂️ by ";
+}
+.footer span:hover:before {
+    color: var(--grey-color-medium);
+    content: "made with ❤️ by ";
+}

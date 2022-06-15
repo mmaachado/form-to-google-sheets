@@ -16,20 +16,21 @@
 <br> -->
 ### Adjusts && fixes
 
-- [x] Create Project Structures;
+<!-- - [x] Create Project Structures;
 - [x] Create 'development' branch;
 - [x] Struct HTML/CSS;
 - [x] Struct Layout JS;
-- [ ] Integrate Sheet Monkey;
-- [ ] Animate CSS;
-- [ ] Create load animation func;
-- [ ] Add loading animation on send form;
-- [ ] Add loading animation on send form;
-- [ ] Add func to remove loading; 
-- [ ] Remove loading on data sent;
-- [ ] Test/Debug;
+- [x] Send Validations;
+- [x] Integrate Sheet Monkey;
+- [x] Animate CSS;
+- [x] Create load animation func;
+- [x] Add loading animation on send form;
+- [x] Add loading animation on send form;
+- [x] Add func to remove loading; 
+- [x] Remove loading on data sent;
+- [x] Test/Debug; -->
 
-<!-- This project is finished, feel free to fork/clone and message me if you think anything could be better. -->
+This project is finished, feel free to fork/clone and message me if you think anything could be better.
 
 ### Frameworks and technologies
 ![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white)

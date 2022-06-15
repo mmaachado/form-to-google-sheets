@@ -4,27 +4,36 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- CSS -->
     <link rel="stylesheet" href="/src/assets/css/style.css">
+    <!-- BOXICONS -->
+    <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
+    
     <title>Form 2 Google Sheets</title>
 </head>
 <body>
     
-    <form>
-        <h1>welcome</h1>
+    <main class="l-main">
+        <section class="home__section" id="home">
+            <form class="wrapper">
+                <h1 class="home__title">welcome</h1>
 
-        <label>
-            <span>name</span>
-            <input type="text" name="name">
-        </label>
+                <label class="home__label">
+                    <span>name</span>
+                    <input type="text" name="name" class="input">
+                </label>
 
-        <label>
-            <span>email</span>
-            <input type="email" name="email">
-        </label>
+                <label class="home__label">
+                    <span>email</span>
+                    <input type="email" name="email" class="input">
+                </label>
 
-        <button type="submit">send</button>
-    </form>
-
+                <button class="home__button" type="submit" disabled>
+                    <i class='bx bxs-send'></i>
+                </button>
+            </form>
+        </section>
+    </main>
 
     <script src="/src/assets/js/main.js"></script>
 </body>

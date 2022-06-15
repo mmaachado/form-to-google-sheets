@@ -18,10 +18,15 @@
 
 - [x] Create Project Structures;
 - [x] Create 'development' branch;
-- [ ] Sheet Monkey;
-- [ ] Struct HTML/CSS;
+- [x] Struct HTML/CSS;
+- [x] Struct Layout JS;
+- [ ] Integrate Sheet Monkey;
 - [ ] Animate CSS;
-- [ ] Struct JS;
+- [ ] Create load animation func;
+- [ ] Add loading animation on send form;
+- [ ] Add loading animation on send form;
+- [ ] Add func to remove loading; 
+- [ ] Remove loading on data sent;
 - [ ] Test/Debug;
 
 <!-- This project is finished, feel free to fork/clone and message me if you think anything could be better. -->

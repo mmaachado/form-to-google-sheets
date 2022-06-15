@@ -161,11 +161,12 @@
     text-decoration: none;
     color: var(--grey-color-medium);
 }
-.footer span:before {
+.footer__text {
     color: var(--grey-color-medium);
-    content: "made with ☂️ by ";
 }
-.footer span:hover:before {
-    color: var(--grey-color-medium);
-    content: "made with ❤️ by ";
+.text__emoji:before {
+    content: "☂️";
+}
+.text__emoji:hover:before {
+    content: "❤️";
 }

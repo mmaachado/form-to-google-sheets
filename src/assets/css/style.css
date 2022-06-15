@@ -13,8 +13,6 @@
     --grey-color-deep: hsl(0, 0%, 20%);
     --text-color: hsl(0, 0%, 0%);
     --button-blue: hsl(221, 43%, 42%);
-    --button-grey: hsl(0, 0%, 43%);
-    --button-red: hsl(359, 60%, 52%);
 
     /*===== font && typo =====*/
     --body-font: 'Lexend Deca', sans-serif;
@@ -59,13 +57,12 @@
     max-width: 500px;
     min-height: 500px;
     padding: 10px;
-     box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
     border: 2px solid rgba(0, 0, 0, 0);
     border-radius: 20px;
     margin: auto;
     margin-top: var(--mb-5);
     background-color: var(--first-color-alt);
-   
 }
 
 .wrapper {
@@ -132,7 +129,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: var(--button-red);
+    background-color: var(--button-blue);
     border-radius: 20px;
     border: none;
     cursor: pointer;
@@ -143,7 +140,7 @@
 }
 .home__button:disabled {
     cursor: auto;
-    background-color: var(--first-color);
+    background-color: var(--first-color-alt);
     border: 2px solid var(--grey-color-light);
 }
 .home__button:disabled i{

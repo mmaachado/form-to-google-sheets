@@ -31,6 +31,7 @@ inputs.forEach((input) => input.addEventListener('input', handleChange));
 /*===== SHEET API PARSER =====*/
 const handleSubmit = (event) => {
     event.preventDefault();
+    addLoading();
 
     const name = document.querySelector('input[name=name]').value;
     const email = document.querySelector('input[name=email]').value;
@@ -43,7 +44,15 @@ const handleSubmit = (event) => {
             'Content-Type': 'application/json',
         },
         body: JSON.stringify({ name, email }),
-    });
+    }).then(() => removeLoading());
 }
 
 document.querySelector('form').addEventListener('submit', handleSubmit);
+
+/*===== LOADING =====*/
+const addLoading = () => {
+    button.innerHTML = "<i class='bx bx-loader-alt bx-spin bx-rotate-90' ></i>";
+}
+const removeLoading = () => {
+    button.innerHTML = "<i class='bx bxs-send'></i>";
+}
